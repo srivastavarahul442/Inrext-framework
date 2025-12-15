@@ -14,12 +14,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/inrext-framework"
+    "url": "https://github.com/srivastavarahul442/Inrext-framework.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/inrext-framework/issues"
+    "url": "https://github.com/srivastavarahul442/Inrext-framework/issues"
   },
-  "homepage": "https://github.com/your-username/inrext-framework#readme",
+  "homepage": "https://github.com/srivastavarahul442/Inrext-framework#readme",
   "files": [
     "index.js",
     "mail/",
@@ -27,7 +27,6 @@
     "worker/"
   ],
   "dependencies": {
-    "dotenv": "^17.2.3",
     "nodemailer": "^7.0.11"
   }
 }
