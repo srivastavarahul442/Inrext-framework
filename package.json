@@ -1,0 +1,33 @@
+{
+  "name": "inrext-framework",
+  "version": "0.1.0",
+  "description": "A framework for building extensible applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framework",
+    "inrext"
+  ],
+  "author": "Rahul Srivastava",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/inrext-framework"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/inrext-framework/issues"
+  },
+  "homepage": "https://github.com/your-username/inrext-framework#readme",
+  "files": [
+    "index.js",
+    "mail/",
+    "migration/",
+    "worker/"
+  ],
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.11"
+  }
+}
