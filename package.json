@@ -1,8 +1,15 @@
 {
   "name": "inrext-framework",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "A framework for building extensible applications",
+  "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./be": "./be/index.js",
+    "./mail": "./mail/index.js",
+    "./migration": "./migration/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,9 +31,10 @@
     "index.js",
     "mail/",
     "migration/",
-    "worker/"
+    "worker/",
+    "be/"
   ],
-  "dependencies": {
-    "nodemailer": "^7.0.11"
+  "peerDependencies": {
+    "nodemailer": "^7.0.0"
   }
 }

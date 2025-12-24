@@ -3,4 +3,4 @@ function migrate() {
   console.log("Migration started...");
 }
 
-module.exports = migrate;
+export default migrate;
