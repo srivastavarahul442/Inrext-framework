@@ -33,6 +33,8 @@ export class Controller {
 
   handler(req, res) {
     const method = req.method.toLowerCase();
+    //want to set cross origin resource sharing headers
+    res.setHeader("Access-Control-Allow-Origin", "*");
     const fun = this[method];
     if (typeof fun !== "function") {
       return this.methodNotAllowed(res);
